@@ -1,0 +1,100 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+body {
+	margin: 0 !important;
+	font-family: Inter, sans-serif;
+	background-color: #282d35;
+	background-image: url(/src/icons/react-icon-large.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 30vh;
+	background-position-x: right;
+	background-position-y: center;
+	color: #deebf8;
+}
+
+/* ///////////////////////////////////////////////////////////Nav///////////////////////////////////////////////////////// */
+nav {
+	display: flex;
+	align-items: center;
+	background-color: #21222a;
+	height: 90px;
+	padding: 30px 25px;
+	justify-content: space-between;
+}
+
+nav>div {
+	display: flex;
+}
+
+.nav--logo_text,
+.nav--icon {
+	margin: 0;
+}
+
+.nav--logo_text {
+	color: rgb(255, 0, 0);
+	font-weight: 700;
+	font-size: 22px;
+	margin: 0;
+}
+
+.nav--title {
+	color: #deebf8;
+	font-weight: 600;
+	margin: 0;
+	font-size: 5px;
+}
+
+.nav--icon {
+	height: 30px;
+	margin-right: 7px;
+}
+
+nav>ul>li>a {
+	color: #deebf8;
+	background-color: transparent;
+	text-decoration: none;
+	padding: 0px;
+	width: 10px;
+}
+
+nav>ul {
+	list-style-type: none;
+	text-align: center;
+	display: inline-flex;
+	gap: 2vh;
+}
+
+nav>li {
+	display: inline-block;
+}
+
+/* ///////////////////////////////////////////////////////////Main///////////////////////////////////////////////////////// */
+
+
+/* ///////////////////Events////////////////////// */
+
+.form {
+	width: 400px;
+	margin: auto;
+	margin-top: 10vh;
+	
+}
+
+.image--blood {
+	height: 500px;
+	text-align: center;
+	
+}
+
+.home-text {
+min-width: 700px;
+}
+
+.photo--card{
+	width: 40vw;
+}
